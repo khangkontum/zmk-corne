@@ -1,0 +1,219 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  base:
+  - - {t: ▽, type: trans}
+    - Q
+    - W
+    - F
+    - P
+    - G
+    - J
+    - L
+    - U
+    - Y
+  - - ;
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - A
+    - R
+    - S
+    - T
+    - D
+    - H
+    - N
+  - - E
+    - I
+    - O
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Z
+    - X
+    - C
+    - V
+    - B
+  - - K
+    - M
+    - ','
+    - .
+    - /
+    - {t: ▽, type: trans}
+    - ESCAPE
+    - nav
+    - LSHFT
+    - SPACE
+  - [symbols, number]
+  nav:
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - PAGE UP
+    - RET
+    - UP
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: LALT, h: sticky}
+    - {t: LCTRL, h: sticky}
+    - {t: LSHFT, h: sticky}
+    - {t: LGUI, h: sticky}
+    - {t: ▽, type: trans}
+    - PG DN
+    - LEFT
+  - - DOWN
+    - RIGHT
+    - BSPC
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  symbols:
+  - - {t: ▽, type: trans}
+    - LS(EXCL)
+    - LS(AT)
+    - LS(POUND)
+    - LS(DLLR)
+    - LS(PRCNT)
+    - '='
+    - '`'
+    - LS(COLON)
+    - {t: ▽, type: trans}
+  - - LS(PLUS)
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: LALT, h: sticky}
+    - {t: LCTRL, h: sticky}
+    - {t: LSHFT, h: sticky}
+    - {t: LGUI, h: sticky}
+    - LS(CARET)
+    - LS(STAR)
+    - LS(LPAR)
+  - - '['
+    - LS(LBRC)
+    - '-'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - \
+    - LS(PIPE)
+    - LS(AMPS)
+  - - LS(TILDE)
+    - LS(RPAR)
+    - ']'
+    - LS(RBRC)
+    - LS(UNDER)
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {type: held}
+    - {t: ▽, type: trans}
+  number:
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '7'
+    - '8'
+    - '9'
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: LALT, h: sticky}
+    - {t: LCTRL, h: sticky}
+    - {t: LSHFT, h: sticky}
+    - {t: LGUI, h: sticky}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '4'
+  - - '5'
+    - '6'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - '1'
+    - '2'
+    - '3'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {type: held}
+  function:
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - F12
+    - F7
+    - F8
+    - F9
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - VOLUME DOWN
+    - VOLUME DOWN
+    - PREVIOUS
+    - PLAY
+    - NEXT
+    - F11
+    - F4
+  - - F5
+    - F6
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - MUTE
+  - - F10
+    - F1
+    - F2
+    - F3
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {type: held}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+combos:
+- p: [38, 39]
+  k: function
